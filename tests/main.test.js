@@ -12,7 +12,6 @@ describe("medianScore", () => {
     ];
     const actual = medianScore(students);
     const expected = 8.4;
-    expect(actual).to.be.a("number");
     expect(actual).to.equal(expected);
   });
 });
@@ -28,7 +27,6 @@ describe("topScoringStudent", () => {
     ];
     const actual = topScoringStudent(students);
     const expected = { name: "Riley Morgan", score: 9.8 };
-    expect(actual).to.be.an("object");
-    expect(actual).to.equal(expected);
+    expect(actual).to.eql(expected);
   });
 });
