@@ -7,7 +7,7 @@ The table below describes the files and folders in the starter code:
 | Folder/file path                 | Description                                                                                                           |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `src/main.js`                     | Contains functions that calculate the median score and the top scoring student.                                                                           |
-| `tests/main.test.js`                  | Contains the tests that need to pass.                                                                     |
+| `test/main.test.js`                  | Contains the tests that need to pass.                                                                     |
 
 
 ## Installation
